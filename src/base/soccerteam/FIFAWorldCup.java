@@ -34,10 +34,10 @@ public class FIFAWorldCup {
         System.out.println("Total Games Played: " + SoccerTeam.getTournamentGamesPlayed());
         System.out.println("Total Goals Scored: " + SoccerTeam.getTournamentGoalsScored());
         System.out.println("");
-        System.out.println("Germany:       " + germany.getCurrentPoints());
-        System.out.println("Japan:         " + japan.getCurrentPoints());
-        System.out.println("France:        " + france.getCurrentPoints());
-        System.out.println("United States: " + usa.getCurrentPoints());
+        System.out.println("Germany:       " + germany.getPoints());
+        System.out.println("Japan:         " + japan.getPoints());
+        System.out.println("France:        " + france.getPoints());
+        System.out.println("United States: " + usa.getPoints());
         System.out.println("-----------------------------------------------------------------------");
 
         //Play games
@@ -70,10 +70,10 @@ public class FIFAWorldCup {
         System.out.println("Total Games Played: " + SoccerTeam.getTournamentGamesPlayed());
         System.out.println("Total Goals Scored: " + SoccerTeam.getTournamentGoalsScored());
         System.out.println("");
-        System.out.println("Germany:       " + germany.getCurrentPoints());
-        System.out.println("Japan:         " + japan.getCurrentPoints());
-        System.out.println("France:        " + france.getCurrentPoints());
-        System.out.println("United States: " + usa.getCurrentPoints());
+        System.out.println("Germany:       " + germany.getPoints());
+        System.out.println("Japan:         " + japan.getPoints());
+        System.out.println("France:        " + france.getPoints());
+        System.out.println("United States: " + usa.getPoints());
         System.out.println("-----------------------------------------------------------------------");
 
     }

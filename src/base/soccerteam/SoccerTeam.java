@@ -28,7 +28,7 @@ public class SoccerTeam {
         tournamentGoalsScored += myScore + otherScore;
 
     }
-    public int getCurrentPoints () {
+    public int getPoints() {
         return 3 * wins + 1 * ties;
     }
     public void reset () {
